@@ -25,8 +25,10 @@ console.log(lastTeacher);
 const firstTeacher = teachers.shift();
 console.log(firstTeacher);
 
-
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
+teachers.push('Vanessa');
+console.log(teachers);
+
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
 
